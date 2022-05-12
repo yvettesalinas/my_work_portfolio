@@ -29,11 +29,6 @@
     position: sticky;
     position: -webkit-sticky;
     top: 0;
-    /*background-image: url("../images/hero-bg.jpg");
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: 80%;
-    z-index: 9999;*/
      }
 
   
@@ -81,29 +76,14 @@
   
   
   /* FOOTER STYLES START */
-  footer {
-    background: var(--primary-color);
-    padding: 40px 35px;
+  footer {    
     display: flex;
-    justify-content: space-between;
+    justify-content: right;
     flex-wrap: wrap;
     width: 100%;
+    font-size: 15px;
   }
   
-  footer h2 {
-    color: var(--secondary-color);
-    font-size: 30px;
-    margin: 0;
-  }
-  
-  footer div {
-    line-height: 1.5;
-    text-align: right;
-  }
-  
-  footer a {
-    color: var(--secondary-color);
-  }
   /* END FOOTER STYLES */
   
   /* STYLE ALL SECTION TAGS */
@@ -124,27 +104,29 @@
     width: auto;
     height: 100%;
   }
+  
+  .inner-hero {
+    font-size: 30px;
+    position: absolute;
+    background: var(--primary-color);
+    float: right;
+    }
     /* HERO STYLES END */
   
   
   /* SECTION TITLE STYLES START */
-  .section-title {
+  .left-sections {
     font-size: 48px;
     border-bottom: 3px solid;
     color: var(--secondary-color);
     padding-bottom: 20px;
-    text-align: center;
-    margin: 0 auto 35px auto;
+    text-align: left;
+    justify-content: left;
+    margin: 0;
     width: 50%;
+    font-size: 40px;
   }
   
-  .primary-border {
-    border-color: var(--primary-color);
-  }
-  
-  .secondary-border {
-    border-color: var(--tertiary-color);
-  }
   /* SECTION TITLE STYLES END */
   
   /* WHAT WE DO STYLES */
