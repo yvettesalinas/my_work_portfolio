@@ -38,7 +38,8 @@
     font-size: 36px;
     color: var(--primary-color);
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  }
+    background-color: var(--secondary-color);
+    }
   
   header a {
     text-decoration: none;
@@ -74,19 +75,52 @@
 
   /* HEADER / NAVBAR STYLES END */
    
-  .left-sections {
-    font-size: 20px;
-    color: var(--secondary-color);
-    padding-right: 100px;
-    text-align: right;
+  .about-me h2{
+    font-size: 30px;
+    color: black;
+    padding-right: 10px;
+    text-align: left;
     margin: 10px;   
-    position: absolute; 
     overflow-wrap: break-word;
     padding-left: 150px;
+    margin-top: 0px;
+  }
+
+  .work h2{
+    font-size: 30px;
+    color: black;
+    padding-right: 10px;
+    text-align: left;
+    margin: 10px;   
+    overflow-wrap: break-word;
+    padding-left: 150px;
+    margin-top: 0px;
+  }
+
+  .contact-me h2 {
+    font-size: 30px;
+    color: black;
+    padding-right: 10px;
+    text-align: left;
+    margin: 10px;   
+    overflow-wrap: break-word;
+    padding-left: 150px;
+    margin-top: 0px;
+  }
+
+  .resume h2 {
+    font-size: 30px;
+    color: black;
+    padding-right: 10px;
+    text-align: left;
+    margin: 10px;   
+    overflow-wrap: break-word;
+    padding-left: 150px;
+    margin-top: 0px;
   }
 
    .left-border {
-    border-left: 5px solid blue;
+    border-left: 5px solid var(--secondary-color);
     margin: 50px 350px;
     padding-bottom: 50px;
     padding-right: 10px;
@@ -98,30 +132,24 @@
   }
 
   .contact-info ul li {
-    display: inline;
-    justify-content: space-between;
-    padding: 30px;
-  }
-
-  .contact-info ul li a img {
-    border-radius: 10px;
-    width: 10%;
-    height: 10%;
-    padding: 0 6px;
-    justify-content: space-evenly;
-  }
-
-  .intro {
-    padding: 10px;
+    display: inline-block;
+    justify-content: flex-end;
+    padding:50px;
+    font-size: 25px;
+    align-items: center;
   }
 
   .work_images {
     padding: 10px;
   }
 
-  .resume-img {
-    padding: 10px;
+  .resume img {
+    padding: 30px;
+    justify-content: center;
+    flex: 1 0 0;
+    width: 50%;
   }
+
   .card {
     flex: 1 0 0;
     padding: 10px;
@@ -135,7 +163,13 @@
     padding: 20px;
     background: var(--primary-color);
     color: white;
-    justify-content: center;
+    justify-content: left;
+    position: relative;
+  }
+
+  .card p {
+    background-color: black;
+    align-items: right;
   }
 
   .hero {
@@ -146,13 +180,13 @@
     flex-wrap: wrap;
     align-items: flex-start;
     background-attachment: fixed;
-    background-position: 80%;
+    background-position: 100%;
   }
   
  .hero-cta {
     width: 35%;
     text-align: right;
-    margin: 3.5%;
+    margin: 5%;
     color: #fff;
     font-size: 18px;
     line-height: 1.2;
@@ -160,11 +194,12 @@
   
   .hero-cta h2 {
     font-style: italic;
-    font-size: 20px;
-    color: var(--primary-color);
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    background:rgba(0, 0, 0, 0.5)
-
+    font-size: 30px;
+    color: white;
+    background:var(--primary-color);
+    float: right;
+    border: 20px solid var(--tertiary-color);
+    padding: 100px;
   }
   .card img {
     width: 100%;
@@ -177,6 +212,8 @@
       flex-wrap: wrap;
       width: 100%;
       font-size: 15px;
+      padding: 100px;
+      background: var(--primary-color);
     }
  
 
@@ -231,14 +268,6 @@
   
     .section-title {
       width: 80%;
-    }
-    
-    .trainer {
-      flex: 0 70%;
-    }
-    
-    .contact-info iframe{
-      flex: 1 100%;
     }
   }
   
