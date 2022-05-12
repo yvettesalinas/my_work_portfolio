@@ -70,27 +70,9 @@
     border-radius: 15px;
     text-shadow: none;
   }
-  
+
   /* HEADER / NAVBAR STYLES END */
-  
-  
-  
-  /* FOOTER STYLES START */
-  footer {    
-    display: flex;
-    justify-content: right;
-    flex-wrap: wrap;
-    width: 100%;
-    font-size: 15px;
-  }
-  
-  /* END FOOTER STYLES */
-  
-  /* STYLE ALL SECTION TAGS */
-  section {
-    padding: 60px;
-  }
-  
+   
   /* HERO STYLES START */
   .hero {
     background-image: url('../images/purple_bricks.jpg');
@@ -101,222 +83,51 @@
     align-items: flex-start;
     background-attachment: fixed;
     background-position: 80%;
-    width: auto;
+    width: 100%;
     height: 100%;
   }
   
   .inner-hero {
     font-size: 30px;
-    position: absolute;
+    position: static;
     background: var(--primary-color);
     float: right;
     }
-    /* HERO STYLES END */
-  
-  
-  /* SECTION TITLE STYLES START */
+ 
   .left-sections {
     font-size: 48px;
-    border-bottom: 3px solid;
     color: var(--secondary-color);
-    padding-bottom: 20px;
+    padding: 30px;
     text-align: left;
     justify-content: left;
-    margin: 0;
-    width: 50%;
-    font-size: 40px;
+    margin: 10px;    
+    border-right: 20px solid var(--tertiary-color);
   }
-  
-  /* SECTION TITLE STYLES END */
-  
-  /* WHAT WE DO STYLES */
-  .intro p {
-    line-height: 1.7;
-    color: var(--tertiary-color);
-    width: 80%;
-    margin: 0 auto;
-    font-size: 20px;
-    text-align: center;
+
+  .intro {
+    padding-left: 300px;
   }
-  /* WHAT YOU DO STYLES END */
-  
-  
-  /* WHAT YOU DO STYLES START */
-  .steps { 
-    background: var(--primary-color);
-  }
-  
-  .step {
-    margin: 50px auto;
-    padding-bottom: 50px;
-    width: 80%;
+
+  .work_images {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
+    flex: 50%;
+    padding: 5px;
+    justify-content: space-evenly;
+    width: 10%;
+    height: 88vh;
+    width: 67vw;
+
   }
-  
-  .step:last-child {
-    border-bottom: none;
-  }
-  
-  .step h3 {
-    color: var(--secondary-color);
-    font-size: 46px;
-    flex: 1 30%;
-  }
-  
-  .step-info {
-    flex: 2 70%;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-  }
-  
-  .step-img {
-    flex: 1 12%;
-    margin-right: 20px;
-  }
-  
-  .step-img img {
-    max-width: 100%;
-  }
-  
-  .step-text {
-    flex: 12;
-  }
-  
-  .step-text p {
-    color: var(--tertiary-color);
-    font-size: 18px;
-  }
-  
-  .step-text h4 {
-    font-size: 26px;
-    line-height: 1.5;
-    color: var(--secondary-color);
-  }
-  /* WHAT YOU DO STYLES END */
-  
-  /* MEET THE TRAINERS START */
-  .trainers {
-    width: 100%;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-  }
-  
-  .trainer {
-    margin: 20px;
-    flex: 1;
-    background: var(--secondary-color);
-    color: var(--primary-color);
-  }
-  
-  .trainer img {
-    width: 100%;
-  }
-  
-  .trainer-bio {
-    padding: 25px;
-    line-height: 1.3;
-  }
-  
-  .trainer-bio h3 {
-    font-size: 28px;
-  }
-  
-  .trainer-bio h4 {
-    font-weight: lighter;
-    font-size: 22px;
-    margin-bottom: 15px;
-  }
-  
-  .trainer-bio p {
-    font-size: 17px;
-  }
-  /* TRAINER STYLES END */
-  
-  /* REACH OUT STYLES START */
-  .contact {
-    background: var(--secondary-color);
-  }
-  
-  .contact h2 {
-    color: var(--primary-color);
-  }
-  
-  .contact-info {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-  }
-  
-  .contact-info > * {
-    flex: 1;
-    margin: 15px;
-  }
-  
-  .contact-info iframe {
-    height: 400px;
-  }
-  
-  .contact-info div {
-    color: white;
-  }
-  
-  .contact-info h3 {
-    color: var(--primary-color);
-    font-size: 32px;
-  }
-  
-  .contact-info p, .contact-info address {
-    margin: 20px 0;
-    line-height: 1.5;
-    font-size: 16px;
-    font-style: normal;
-  }
-  
-  .contact-form input, .contact-form textarea {
-    border: 1px solid var(--secondary-color);
-    display: block;
-    padding: 7px 15px;
-    font-size: 16px;
-    color: var(--secondary-color);
-    width: 100%;
-    margin-bottom: 15px;
-    margin-top: 5px;
-    border-radius: 10px;
-    background-color: rgba(255,255,255, 0.75);
-  }
-  
-  .contact-form input:focus, .contact-form textarea:focus {
-    background-color: rgba(255,255,255, 1);
-    outline: none;
-  }
-  
-  .contact-form button {
-    width: 100%;
-    border: none;
-    background: var(--primary-color);
-    color: var(--secondary-color);
-    text-align: center;
-    padding: 15px 0;
-    font-size: 16px;
-    border-radius: 10px;
-  }
-  
-  .contact-form button:hover {
-    color: var(--primary-color);
-    background: var(--tertiary-color);
-  }
-  
-  .contact-info a {
-    color: var(--primary-color);
-  }
-  /* REACH OUT STYLES END */
-  
+    footer {    
+      display: flex;
+      justify-content: right;
+      flex-wrap: wrap;
+      width: 100%;
+      font-size: 15px;
+    }
+ 
+
   /* UTILITIES */
   .text-left {
     text-align: left;
