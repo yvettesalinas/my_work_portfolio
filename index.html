@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/css/style.css">
-    <title>Yvette Salinas' Portfolio</title>
+    <title>My Work Portfolio</title>
   </head>
   <body>
     <!-- navigation tags - block level element -->
@@ -17,11 +17,11 @@
           <li>
             <a href="#about-me">About Me</a>
           </li>
-          <li> 
+          <li>
             <a href="#work">Work</a>
           </li>
           <li>
-            <a href="#contact-me">Contact Me</a>
+            <a href="#contact">Contact Information</a>
           </li>
           <li>
             <a href="#resume">Resume</a>
@@ -31,103 +31,115 @@
     </header>
     <!-- end navigation -->
 
+    <!-- hero/jumbotron -->
     <section class="hero">
-        <div class="hero-cta">
-          <h2>"Failure teaches me."</h2>
-        </div>
+      <div class="hero-cta">
+        <h2>Passion and Drive</h2>
+      </div>
     </section>
+    <!-- end header -->
 
-
-    <!-- "about me" - <section> -->
-    <section class="about-me">
-        <h2>
-          About Me
+    <!-- "about me" start - <section> -->
+    <section id="about-me" class="intro">
+      <div class="flex-row">
+        <h2 class="section-title primary-border">
+         About Me
         </h2>
-      <div class="flex-row left-border">
-        <p class="intro">
-           Something, something about me. 
+      </div>
+      <div class="workcards">
+        <article class="workcard">
+          <img src="./assets/images/me.jpg" alt="A photo of Yvette Salinas" />
+      <div class="flex-row">
+        <p>
+          My name is Yvette Salinas.  I am an aspiring full-stack web developer.  I was a teacher for 10 years, but recently decided that my life needed  a change.  I am excited to learn more about coding and implement my knowledge to a new career. 
         </p>
       </div>
+      </article>
     </section>
     <!-- end "about me" -->
 
-    <!-- "work" start -->
-    <section class="work">
-        <h2>
+    <!-- "what you do" start -->
+  <section id="work" class="steps">
+      <div class="flex-row">
+        <h2 class="section-title secondary-border">
           Work
         </h2> 
-        <div class="left-border">
-            <section class="card">
-              <p>Camera</p>
-              <img src="./assets/images/coming-soon.jpg" alt="web application is coming soon" />
-              <p>Price: $300</p>
-            </section>
-            <section class="card">
-              <p>Tablet</p>
-              <img src="./assets/images/coming-soon.jpg" alt="web application is coming soon" />
-              <p>Price: $150</p>
-            </section>
-            <section class="card">
-              <p>Toilet Paper</p>
-              <img src="./assets/images/coming-soon.jpg" alt="web application is coming soon" />
-              <p>Price: $30</p>
-            </section>
-            <section class="card">
-              <p>Wooden Spoons</p>
-              <img src="./assets/images/coming-soon.jpg" alt="web application is coming soon" />
-              <p>Price: $10</p>
-            </section>
-            <section class="card">
-              <p>Soap</p>
-              <img src="./assets/images/coming-soon.jpg" alt="web application is coming soon" />
-              <p>Price: $5</p>
-            </section>
-            <section class="card">
-              <p>Spinning Top</p>
-              <img src="./assets/images/coming-soon.jpg" alt="web application is coming soon" />
-              <p>Price: $3</p>
-            </section>
       </div>
-    <!-- "work" end -->
+        <div class="workcards">
+          <article class="workcard">
+            <img src="./assets/images/coming-soon.jpg" alt="Arron Stephens in his workout clothes, ready to pump iron" />
+            <div class="workcard-bio">
+              <h3 class="workcard-name">Run Buddy</h3>
+            </div>
+          </article>
+  
+          <article class="workcard">
+            <img src="./assets/images/coming-soon.jpg" alt="Joanna Gill cooling off after a work out" />
+            <div class="workcard-bio">
+              <h3 class="workcard-name">Horiseon: A Social Marketing Company</h3>
+              </div>
+            </article>
+  
+          <article class="workcard">
+            <img src="./assets/images/coming-soon.jpg" alt="Harry Smith wearing a headband and lifting comically small pink weights" />
+            <div class="workcard-bio">
+              <h3 class="workcard-name">Random Password Generator</h3>
+            </div>
+          </article>
 
-    <!-- "contact me" start -->
-    <section class="contact-me">
-      <div class="flex-row">
-        <h2>
-          Contact Me
-        </h2>
-        <div class="contact-info left-border">
-            <ul>
-                <li>
-                    (956)827-0899
-                </li>
-                <li>
-                    yvette.salinas0426@gmail.com
-                </li>
-            </ul>
+          <article class="workcard">
+            <img src="./assets/images/coming-soon.jpg" alt="Harry Smith wearing a headband and lifting comically small pink weights" />
+            <div class="workcard-bio">
+              <h3 class="workcard-name">Functioning Calculator</h3>
+            </div>
+          </article>
         </div>
-        </div>
+      </div>
     </section>
+    <!-- "what you do" end -->
 
-    <!-- "contact me" end -->
+    <!-- "contact information" start -->
+    <section id="contact">
+      <div class="flex-row">
+        <h2 class="section-title primary-border">
+          Contact Information
+        </h2>
+      </div>
 
-    <!-- "resume" start -->
-    <section class="resume">
-        <div class="flex-row">
-            <h2>
-              Resume
-            </h2>
+      <div class="contact-info">
+        <div>
+          <h3>Yvette Salinas</h3>
+          <p>
+            Any questions?
+          </p>
+
+          <address>
+            55 Main Street <br/>
+            Some Town, Ca <br/>
+            12345<br/>
+            P: 555.123.4567<br/>
+            E: example.lastname@gmail.com
+          </address>
+    </section>
+    <!-- "meet the workcards" end -->
+
+    <!-- "reach out" start -->
+    <section id="resume" class="contact">
+      <div class="flex-row">
+        <h2 class="section-title secondary-border">
+          Resume
+        </h2>        
+      </div>
+      <article class="workcard">
+        <img src="./assets/images/coming-soon.jpg" alt="Harry Smith wearing a headband and lifting comically small pink weights" />
         </div>
-        <div class="left-border">
-            <section class="resume">
-              <img src="./assets/images/coming-soon.jpg" alt="web application is coming soon" />
-            </section>
-    </section>      
-    <!-- "resume" end -->
+      </article>
+    </section>
+    <!-- "reach out" end -->
 
     <!-- footer -->
     <footer>
-      <h2>😃 Happily created by Yvette Salinas.</h2>
+      <h2>👋 Come again soon!</h2>
     </footer>
     <!-- footer end -->
   </body>
