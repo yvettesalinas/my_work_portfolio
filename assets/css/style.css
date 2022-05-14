@@ -1,7 +1,9 @@
 :root {
-  --primary-color: #16697A;
-  --secondary-color: #82C0CC;
-  --tertiary-color: lightgray;
+  --primary-color: #0b0c10;
+  --secondary-color: #1f2833;
+  --tertiary-color: #c5c6c7;
+  --quaternary-color: #66fcf1;
+  --quinary-color: #45a29e;
 }
 
 * {
@@ -11,7 +13,7 @@
 }
 
 body {
-  color: var(--tertiary-color);
+  color: white;
   font-family: Helvetica, Arial, sans-serif;
 }
 
@@ -19,7 +21,7 @@ body {
 
 header {
   padding: 20px 35px;
-  background-color: var(--tertiary-color);
+  background-color: var(--primary-color);
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -36,7 +38,7 @@ header h1 {
   font-weight: bold;
   margin: 0;
   font-size: 40px;
-  color: var(--primary-color);
+  color: var(--quaternary-color);
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
@@ -46,7 +48,7 @@ header h1 a {
 
 header a {
   text-decoration: none;
-  color: var(--primary-color);
+  color: var(--quaternary-color);
 }
 
 header nav {
@@ -72,7 +74,7 @@ header nav ul li a {
 
 header nav ul li a:hover {
   color: var(--secondary-color);
-  background-color: var(--primary-color);
+  background-color: var(--quaternary-color);
   text-shadow: none;
   border-radius: 10%;
 }
@@ -90,7 +92,7 @@ footer {
 }
 
 footer h2 {
-  color: var(--secondary-color);
+  color: var(--quaternary-color);
   font-size: 30px;
   margin: 0;
 }
@@ -131,11 +133,11 @@ section {
 
 .hero-cta h2 {
   font-size: 20px;
-  color: var(--primary-color);
+  color: var(--quaternary-color);
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   justify-content: right;
   align-items: baseline;
-  background-color: var(--tertiary-color);
+  background-color: var(--primary-color);
   }
 /* HERO STYLES END */
 
@@ -145,9 +147,8 @@ section {
   font-size: 48px;
   color: var(--secondary-color);
   text-align: left;
-  margin: 0;
+  margin: 0px;
   width: 50%;
-  border-left: 10px solid var(--tertiary-color);
   padding-left: 10px;
   padding-bottom: 20px;
 }
@@ -162,15 +163,12 @@ section {
   font-size: 20px;
   text-align: center;
 }
+
 /* ABOUT ME STYLES END */
 
 
 /* WORK STYLES START */
-.work-section { 
-  background: var(--primary-color);
-}
-
-.workcards {
+.workcards, .pic-cards{
   width: 100%;
   margin: 0 auto;
   display: flex;
@@ -179,11 +177,11 @@ section {
   padding-top: 0px;
 }
 
-.workcard{
+.workcard, .workcards{
   margin: 20px;
   flex: 1;
-  background: var(--secondary-color);
   color: var(--primary-color);
+  border-left: 15px solid var(--secondary-color);
 }
 
 .workcard img, .run-buddy img {
@@ -197,6 +195,7 @@ section {
 
 .workcard-appname h3 {
   font-size: 30px;
+  color: var(--primary-color);
 }
 
 a {
@@ -207,6 +206,10 @@ a {
   margin: 20px;
   background: var(--secondary-color);
   color: var(--primary-color);
+}
+
+.run-buddy h3 {
+  color: white;
 }
 
 .hover-over {
@@ -221,10 +224,6 @@ a {
 /* WORK STYLES END */
 
 /* CONTACT STYLES START */
-.contact {
-  background: var(--secondary-color);
-}
-
 .contact h2 {
   color: var(--primary-color);
 }
