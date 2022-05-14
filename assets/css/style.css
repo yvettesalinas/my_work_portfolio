@@ -179,14 +179,14 @@ section {
   padding-top: 0px;
 }
 
-.workcard {
+.workcard{
   margin: 20px;
   flex: 1;
   background: var(--secondary-color);
   color: var(--primary-color);
 }
 
-.workcard img {
+.workcard img, .run-buddy img {
   width: 100%;
 }
 
@@ -203,10 +203,21 @@ a {
   text-decoration: none;
 }
 
+.run-buddy {
+  margin: 20px;
+  background: var(--secondary-color);
+  color: var(--primary-color);
+}
+
+.hover-over {
+  border: 15px solid var(--secondary-color);
+}
+
 .hover-over:hover {
     background-color: var(--tertiary-color);
     border: 10px solid var(--tertiary-color);
 }
+
 /* WORK STYLES END */
 
 /* CONTACT STYLES START */
@@ -275,12 +286,12 @@ a {
     font-size: 20px;
   }
 
-  footer h2, footer div {
+  footer h2 {
     text-align: center;
     width: 100%;
   }
 
-  .hero-cta, .hero-form {
+  .hero-cta {
     width: 100%;
   }
   
@@ -292,7 +303,7 @@ a {
     width: 80%;
   }
   
-  .workcard {
+  .workcard, .run-buddy {
     flex: 0 70%;
   }
   
@@ -304,7 +315,7 @@ a {
     padding: 30px 15px;
   }
 
-  .workcard-appname h3, .workcard-appname h4 {
+  .workcard-appname h3 {
     display: block;
   }
 }
@@ -320,7 +331,7 @@ a {
     width: 100%;
   }
 
-  .workcard {
+  .workcard, .run-buddy {
     flex: 0 100%;
   }
 
