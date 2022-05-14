@@ -35,7 +35,7 @@ header {
 header h1 {
   font-weight: bold;
   margin: 0;
-  font-size: 50px;
+  font-size: 40px;
   color: var(--primary-color);
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
@@ -107,7 +107,7 @@ section {
   background-image: url('../images/anders-jilden-Sc5RKXLBjGg-unsplash.jpg');
   background-size: cover;
   display: flex;
-  justify-content: center;
+  justify-content: right;
   flex-wrap: wrap;
   align-items: flex-start;
   background-attachment: fixed;
@@ -121,16 +121,22 @@ section {
   color: #fff;
   font-size: 18px;
   line-height: 1.2;
+  position: relative;
+  right: 0px;
+  bottom: 0px;
+  float: right;
+  justify-content: right;
+  align-items: bottom;
 }
 
 .hero-cta h2 {
-  font-size: 55px;
+  font-size: 20px;
   color: var(--primary-color);
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   justify-content: right;
-  align-items: bottom;
-  background-color: var(--tertiary-color)
-}
+  align-items: baseline;
+  background-color: var(--tertiary-color);
+  }
 /* HERO STYLES END */
 
 
